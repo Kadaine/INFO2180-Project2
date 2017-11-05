@@ -170,7 +170,7 @@ of the fourth images available*/
 }
 function randomBackground()
   {
-    var pictures = ["Background1.jpg","Background2.jpg","Background3.jpg","Background4.jpg"];
+    var pictures = ["background1.jpg","background2.jpg","background3.jpg","background4.jpg"];
     var current = tiles[0].style.backgroundImage.slice(5, -2);
     var RanNum = Math.floor(Math.random() * pictures.length);
 
