@@ -18,7 +18,7 @@ window.onload = function()
   $("#setup").append("<p id = 'header'>SELCECT OF FOUR OPTIONS</p>");
   $("#setup").append("<input type = 'radio' name = 'Back' value= 1>Chelsea</input>");
   $("#setup").append("<input type = 'radio' name= 'Back' value= 2>Buttercup</input>");
-  $("#setup").append("<input type = 'radio' name= 'Back' value= '3'>Micky Mouse</input>");
+  $("#setup").append("<input type = 'radio' name= 'Back' value= 3>Micky Mouse</input>");
   $("#setup").append("<input type = 'radio' name= 'Back' value= 4>Tom & Jerry</input>");
   $("#header")[0].style.textAlign = "center";
 
