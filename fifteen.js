@@ -174,7 +174,7 @@ function randomBackground()
     var current = tiles[0].style.backgroundImage.slice(5, -2);
     var RanNum = Math.floor(Math.random() * pictures.length);
 
-   while(current == pictures[RanNum])
+   while(current == pictures[RanNum]) 
     {
        RanNum = Math.floor(Math.random() * pictures.length);
     }
